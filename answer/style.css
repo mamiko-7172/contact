@@ -1,0 +1,147 @@
+* {
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+.container {
+    width: 100vw;
+    /* height: 1000px; */
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+form {
+    width: 70%;
+    border: 1px solid purple;
+    padding: 2.2em 1.5em;
+}
+@media screen and (max-width: 600px) {
+    form {
+        width: 70%;
+    }
+}
+
+h1 {
+    margin-bottom: 30px;
+}
+@media screen and (min-width: 600px) {
+    h1 {
+        color: red;
+        text-align: center;
+    }
+}
+.comment {
+    margin-bottom: 30px;
+}
+@media screen and (min-width: 600px) {
+    .comment {
+        
+        text-align: center;
+    }
+}
+dl {
+    margin-bottom: 19px;
+    width: 100%;
+}
+@media screen and (min-width: 600px) {
+    dl {
+        display: flex;
+        align-items: center;
+    }
+    
+}
+dt {
+    font-size: 18px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+@media screen and (min-width: 600px) {
+    dt {
+        width: 30%;
+        /* float: right; */
+        /* margin-left: auto; */
+        margin-bottom: 0;
+    }
+}
+dt > span {
+    font-size: 10px;
+    font-weight: normal;
+    background-color: #0075d9;
+    color: white;
+    padding: 2px 11px;
+    border-radius: 3px;
+    margin-left: 18px;
+}
+input, textarea {
+    border: 2px solid #ccc;
+}
+.input-text {
+    padding: 5px 12px;
+    width: 90%;
+    height: 30px;
+}
+.radio-item, .checkbox-item {
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+}
+@media screen and (min-width: 600px) {
+    .radio-items {
+        display: flex;
+        align-items: center;
+}
+    }
+
+.radio-item > input, .checkbox-item > input, .agreement > input {
+    width: 2em;
+    height: 2em;
+}
+.radio-item > label, .checkbox-item > label {
+    margin-left: 17px;
+}
+textarea {
+    font-size: 18px;
+    width: 90%;
+    height: 380px;
+    padding: 15px 12px;
+}
+.agree-text {
+    margin-bottom: 15px;
+}
+a {
+    color: #3958ff;
+}
+.agreement {
+    margin-bottom: 15px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 60px;
+}
+.agreement > label {
+    margin-left: 17px;
+}
+button {
+    width: 100%;
+    font-size: 24px;
+    padding: 22px;
+    position: relative;
+    border-radius: 5px;
+    border: none;
+    background-color: #ff9258;
+    color: white;
+}
+button:after {
+    content: '';
+    width: inherit;
+    height: 15px;
+    background-color: #8d3304;
+    position: absolute;
+    top: 69px;
+    left: 0;
+    z-index: -1;
+    border-radius: inherit;
+}

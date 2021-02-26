@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <form action="">
+            <h1>CONTACT</h1>
+            <p class="comment">以下のフォームより、お問い合わせください。</p>
+
+            <dl>
+                <dt>お名前<span>必須</span></dt>
+                <dd><input type="text" placeholder="田中 太郎" class="input-text"></dd>
+            </dl>
+            <dl>
+                <dt>メールアドレス<span>必須</span></dt>
+                <dd><input type="email" placeholder="taro@gmail.com" class="input-text"></dd>
+            </dl>
+            <dl>
+                <dt>ご年齢</dt>
+                
+                <dd class="radio-items">
+                    <div class="radio-item">
+                        <input type="radio" value="20" name="20">
+                        <label for="20">20代</label>
+                    </div>
+                    <div class="radio-item">
+                        <input type="radio" value="30" name="30">
+                        <label for="30">30代</label>
+                    </div>
+                    <div class="radio-item">
+                        <input type="radio" value="40" name="40">
+                        <label for="40">40代</label>
+                    </div>
+                    <div class="radio-item">
+                        <input type="radio" value="50" name="50">
+                        <label for="50">50代以上</label>
+                    </div>
+                </dd>
+            </dl>
+            <dl>
+                <dt>興味のある項目</dt>
+                <dd>
+                    <div class="checkbox-item">
+                        <input type="checkbox" value="coding" name="coding">
+                        <label for="coding">コーディング</label>
+                    </div>
+                </dd>
+                <dd>
+                    <div class="checkbox-item">
+                        <input type="checkbox" value="design" name="design">
+                        <label for="design">デザイン</label>
+                    </div>
+                </dd>
+                <dd>
+                    <div class="checkbox-item">
+                        <input type="checkbox" value="seo" name="seo">
+                        <label for="seo">SEO</label>
+                    </div>
+                </dd>
+                <dd>
+                    <div class="checkbox-item">
+                        <input type="checkbox" value="marketing" name="marketing">
+                        <label for="marketing">ウェブマーケティング</label>
+                    </div>
+                </dd>
+            </dl>
+            <dl>
+                <dt>その他メッセージ</dt>
+                <textarea name="message" placeholder="例） SEOの資料を送ってほしい"></textarea>
+            </dl>
+
+            <p class="agree-text"><a href="#">個人情報保護方針</a>に同意の上メッセージを送信してください。</p>
+
+            <div class="agreement">
+                <input type="checkbox" name="agree">
+                <label for="agree">同意する</label>
+            </div>
+            <button>送信する</button>
+        </form>
+    </div>
+
+    
+</body>
+</html>

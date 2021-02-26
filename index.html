@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="assets/style.css">
+</head>
+
+<body>
+    <div class="container">
+        <form action="">
+            <h1>CONTACT</h1>
+            <p class="coment">以下のフォームより、お問い合わせください。</p>
+        
+            <div class="fullname">
+                <p>お名前<span>必須</span></p>
+                <input type="text" class="input-text" placeholder="田中 太郎">
+            </div>
+
+            <div class="mailadress">
+                <p>メールアドレス<span>必須</span></p>
+                <input type="text" class="input-mail" placeholder="karuaka@culaca.ne.jp">
+            </div>
+
+            <div class="age">
+                <p>ご年齢</p>
+                <input type="radio" class="general" value="20">20代
+                <input type="radio" class="general" value="30">30代
+                <input type="radio" class="general" value="40">40代
+                <input type="radio" class="general" value="50">50代
+            </div>
+
+            <div class="interest">
+                <p>興味のある項目</p>
+                <input type="checkbox" class="item" value="coding">コーディング
+                <input type="checkbox" class="item" value="design">デザイン
+                <input type="checkbox" class="item" value="webmarketing">ウェブマーケティング
+                <input type="checkbox" class="item" value="UIUX">UI/UX
+            </div>
+
+            <div class="message">
+                <p>その他メッセージ</p>
+                <textarea class="freemessage" placeholder="例）SEOの資料を送ってほしい"></textarea>
+            </div>
+
+            <div class="policy">
+                <p><a href="#">個人情報保護方針</a>に同意の上メッセージを送信してください</p>
+                <input type="checkbox" name="agree" class="agree">同意する
+            </div>
+
+            <div class="send">
+                <button>送信する</button>
+            </div>
+        </form>
+
+
+    </div>
+</body>
+
+</html>

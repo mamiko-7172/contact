@@ -1,0 +1,170 @@
+*{
+    font-family: 'Yu Gothic', 'Hiragino Mincho Pro', 'Meiryo';
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+.container{
+    border: 1px #ccc solid;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+form{
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    border: 1px #ccc solid;
+}
+
+h1{
+    margin: 20px;
+    text-align: center;
+}
+
+.coment{
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.fullname{
+    display: flex;
+    margin-bottom: 10px;
+}
+
+@media screen and (max-width: 600px) {
+    .fullname {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 10px;
+    }
+}
+p{
+    font-weight: bolder;
+}
+
+@media screen and (max-width: 600px) {
+    p{
+        margin: 10px;
+    }
+}
+
+span{
+    background-color: #0075b9;
+    color: #fff;
+    font-size: 8px;
+    padding: 5px;
+    margin: 5px;
+    border-radius: 3px;
+}
+
+.input-text{
+    margin-left: 80px;
+}
+@media screen and (max-width: 600px) {
+    .input-text{
+        margin-left: 0;}
+}
+
+.input-mail{
+    margin-left: 15px;
+}
+
+.mailadress{
+    display: flex;
+    margin-bottom: 10px;
+}
+
+@media screen and (max-width: 600px) {
+    .mailadress{
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+.age{
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+@media screen and (max-width: 600px) {
+    .age{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+}
+
+.general{
+    margin-left: 30px;
+}
+
+.interest{
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+@media screen and (max-width: 600px) {
+    .interest{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+}
+.item{
+    margin-left: 30px;
+}
+
+.message{
+    margin-bottom: 10px;
+    display: flex;
+}
+
+@media screen and (max-width: 600px) {
+    .message{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+}
+
+.freemessage{
+    margin-left: 30px;
+    width: 90%;
+    height: 380px;
+    padding: 15px 12px;
+}
+
+@media screen and (max-width: 600px) {
+    .freemessage{ 
+        width: 70%;
+        padding: 15px 12px;
+    }
+}
+
+.policy{
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.policy>textbox{
+    margin-top: 20px;
+}
+
+button{
+    width: 50%;
+    font-size: 20px;
+    border-radius: 5px;
+    border: none;
+    background-color: #ff9258;
+    color: white;
+    align-items: center;
+    justify-content: center;
+}
+
+
